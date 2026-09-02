@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "description": "Emergency helplines and support organization contacts. Edit this file to update contacts without touching code.",
+    "lastReviewed": "2026-09-02",
+    "reviewedBy": "Initial setup — verify all numbers before launch",
+    "disclaimer": "Contact details may change. Verify current numbers with official sources."
+  },
+  "emergency": [
+    {
+      "id": "police_emergency",
+      "name": "Police Emergency",
+      "number": "112",
+      "description": "All-India emergency number for police, fire, and ambulance",
+      "available": "24/7",
+      "type": "emergency"
+    },
+    {
+      "id": "women_helpline",
+      "name": "Women's Helpline",
+      "number": "181",
+      "description": "24/7 helpline for women in distress — counselling, shelter, legal aid",
+      "available": "24/7",
+      "type": "emergency"
+    },
+    {
+      "id": "cyber_crime",
+      "name": "Cyber Crime Helpline",
+      "number": "1930",
+      "description": "National Cyber Crime Helpline — report financial fraud and cybercrimes",
+      "available": "24/7",
+      "type": "emergency"
+    }
+  ],
+  "helplines": [
+    {
+      "id": "ncw",
+      "name": "National Commission for Women",
+      "number": "7827-170-170",
+      "description": "File complaints related to crimes against women",
+      "website": "http://ncw.nic.in/",
+      "available": "9 AM - 5:30 PM, Mon-Fri",
+      "type": "helpline",
+      "categories": ["cyber_harassment", "stalking", "domestic_abuse", "workplace_harassment"]
+    },
+    {
+      "id": "childline",
+      "name": "Childline",
+      "number": "1098",
+      "description": "24/7 helpline for children in distress",
+      "available": "24/7",
+      "type": "helpline",
+      "categories": ["domestic_abuse"]
+    },
+    {
+      "id": "vandrevala",
+      "name": "Vandrevala Foundation",
+      "number": "1860-2662-345",
+      "description": "24/7 mental health support — free counselling in multiple languages",
+      "website": "https://www.vandrevalafoundation.com/",
+      "available": "24/7",
+      "type": "counselling",
+      "categories": ["cyber_harassment", "stalking", "domestic_abuse", "workplace_harassment"]
+    },
+    {
+      "id": "icall",
+      "name": "iCall — TISS",
+      "number": "9152987821",
+      "description": "Free professional counselling by TISS-trained counsellors",
+      "website": "https://icallhelpline.org/",
+      "available": "Mon-Sat, 8 AM - 10 PM",
+      "type": "counselling",
+      "categories": ["cyber_harassment", "stalking", "domestic_abuse", "workplace_harassment"]
+    }
+  ],
+  "organizations": [
+    {
+      "id": "shakti_shalini",
+      "name": "Shakti Shalini",
+      "description": "Support for women facing domestic violence — shelter, legal aid, counselling",
+      "phone": "011-24373737",
+      "website": "http://shaktishalini.org/",
+      "type": "ngo",
+      "categories": ["domestic_abuse", "stalking"]
+    },
+    {
+      "id": "cyber_peace",
+      "name": "Cyber Peace Foundation",
+      "description": "Cyber safety awareness, reporting support, and digital literacy",
+      "website": "https://www.cyberpeace.org/",
+      "type": "ngo",
+      "categories": ["cyber_harassment", "online_fraud", "stalking"]
+    },
+    {
+      "id": "dlsa",
+      "name": "District Legal Services Authority (DLSA)",
+      "description": "Free legal aid and representation for eligible persons",
+      "website": "https://nalsa.gov.in/",
+      "type": "legal_aid",
+      "categories": ["cyber_harassment", "stalking", "online_fraud", "domestic_abuse", "workplace_harassment"]
+    },
+    {
+      "id": "lawyers_collective",
+      "name": "Lawyers Collective",
+      "description": "Public interest legal organization — women's rights and human rights",
+      "website": "https://lawyerscollective.org/",
+      "type": "legal_aid",
+      "categories": ["domestic_abuse", "workplace_harassment"]
+    },
+    {
+      "id": "humsafar",
+      "name": "Humsafar Trust",
+      "description": "Support for LGBTQ+ individuals facing discrimination and abuse",
+      "phone": "022-26673800",
+      "website": "https://humsafar.org/",
+      "type": "ngo",
+      "categories": ["cyber_harassment", "stalking", "workplace_harassment"]
+    }
+  ]
+}

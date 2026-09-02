@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "description": "Filing authorities and official portal links. Edit this file to update links without touching code.",
+    "lastReviewed": "2026-09-02",
+    "reviewedBy": "Initial setup — verify all URLs before launch",
+    "disclaimer": "Links to third-party websites. SafeStep is not affiliated with these organizations."
+  },
+  "portals": [
+    {
+      "id": "cybercrime_portal",
+      "name": "National Cybercrime Reporting Portal",
+      "url": "https://cybercrime.gov.in",
+      "description": "Official Government of India portal to report cybercrimes online. File and track complaints.",
+      "type": "government",
+      "categories": ["cyber_harassment", "stalking", "online_fraud"],
+      "instructions": "Select 'Report Cyber Crime' → Choose crime type → Fill details → Upload evidence → Submit"
+    },
+    {
+      "id": "ncw_complaint",
+      "name": "NCW Online Complaint",
+      "url": "http://ncw.nic.in/",
+      "description": "National Commission for Women — file complaints related to crimes against women.",
+      "type": "government",
+      "categories": ["cyber_harassment", "stalking", "domestic_abuse", "workplace_harassment"],
+      "instructions": "Visit website → Register complaint → Provide incident details → Upload supporting documents"
+    },
+    {
+      "id": "nalsa",
+      "name": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/",
+      "description": "Find free legal aid services and your nearest Legal Services Authority.",
+      "type": "government",
+      "categories": ["cyber_harassment", "stalking", "online_fraud", "domestic_abuse", "workplace_harassment"],
+      "instructions": "Find your state/district Legal Services Authority → Contact for free legal aid"
+    },
+    {
+      "id": "rbi_ombudsman",
+      "name": "RBI Banking Ombudsman",
+      "url": "https://rbi.org.in/Scripts/Complaints.aspx",
+      "description": "Escalate banking and financial fraud complaints if your bank is unresponsive.",
+      "type": "government",
+      "categories": ["online_fraud"],
+      "instructions": "File online complaint → Provide bank details → Describe the issue → Upload evidence"
+    },
+    {
+      "id": "she_box",
+      "name": "SHe-Box (Sexual Harassment Electronic Box)",
+      "url": "http://shebox.nic.in/",
+      "description": "Government portal for registering complaints of sexual harassment at workplace.",
+      "type": "government",
+      "categories": ["workplace_harassment"],
+      "instructions": "Register → File complaint → Complaint is forwarded to concerned authority"
+    }
+  ],
+  "stateResources": {
+    "_note": "State-specific resources. Add more states as needed.",
+    "delhi": {
+      "cyberCell": "Cyber Crime Cell, Delhi — 011-27411526",
+      "womenCell": "Delhi Commission for Women — 011-23379181",
+      "legalAid": "Delhi State Legal Services Authority — 011-23384781"
+    },
+    "maharashtra": {
+      "cyberCell": "Maharashtra Cyber Cell — 022-22641261",
+      "womenCell": "Maharashtra State Commission for Women — 022-22025780",
+      "legalAid": "Maharashtra State Legal Services Authority — 022-22625413"
+    },
+    "karnataka": {
+      "cyberCell": "Karnataka CID Cyber Crime — 080-22942475",
+      "womenCell": "Karnataka State Commission for Women — 080-22100435",
+      "legalAid": "Karnataka State Legal Services Authority — 080-22110507"
+    },
+    "tamil_nadu": {
+      "cyberCell": "Tamil Nadu Cyber Crime Wing — 044-28512527",
+      "womenCell": "Tamil Nadu State Commission for Women — 044-28279778",
+      "legalAid": "Tamil Nadu State Legal Services Authority — 044-25348842"
+    },
+    "west_bengal": {
+      "cyberCell": "West Bengal CID Cyber Crime — 033-22143000",
+      "womenCell": "West Bengal Commission for Women — 033-23345424",
+      "legalAid": "West Bengal State Legal Services Authority — 033-22486065"
+    }
+  }
+}

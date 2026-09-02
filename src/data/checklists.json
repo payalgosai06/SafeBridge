@@ -1,0 +1,589 @@
+{
+  "_meta": {
+    "description": "Step-by-step guided complaint checklists per situation category. Every step is labeled as general information. Edit this file to update guidance without touching code.",
+    "lastReviewed": "2026-09-02",
+    "reviewedBy": "Initial setup — requires legal review before launch",
+    "disclaimer": "General information only, not legal advice. Verify all information with qualified legal counsel."
+  },
+  "checklists": {
+    "cyber_harassment": {
+      "title": "Cyber Harassment — What To Do",
+      "urgentNote": "If you are in immediate danger, call 112 (Police) or 1930 (Cyber Crime Helpline) right now.",
+      "steps": [
+        {
+          "id": "ch_1",
+          "order": 1,
+          "title": "Document Everything Immediately",
+          "description": "Take screenshots of all abusive messages, posts, or content before they can be deleted.",
+          "details": [
+            "Screenshot the content showing the sender's username/profile and timestamp",
+            "Save the URL/link of the content if it's on a website or social media",
+            "If it's a video or audio, screen-record with date and time visible on screen",
+            "Save complete chat threads — not just individual messages",
+            "Note the platform(s) where the harassment occurred"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "15-30 minutes"
+        },
+        {
+          "id": "ch_2",
+          "order": 2,
+          "title": "Preserve Digital Evidence",
+          "description": "Store your evidence securely so it cannot be tampered with or lost.",
+          "details": [
+            "Upload screenshots and recordings to SafeStep's Evidence Vault — each file gets a SHA-256 hash and timestamp",
+            "Do NOT edit or crop screenshots — courts need originals",
+            "If possible, save the page as a PDF using your browser's Print-to-PDF feature",
+            "Keep a written log of dates, times, and what happened",
+            "Back up evidence on a device the harasser cannot access"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "10-20 minutes"
+        },
+        {
+          "id": "ch_3",
+          "order": 3,
+          "title": "Report on the Platform",
+          "description": "Report the abusive content/account on the platform where it occurred.",
+          "details": [
+            "Use the platform's built-in report function (usually under a three-dot menu or flag icon)",
+            "Select the most specific violation category available",
+            "Note the report reference number or take a screenshot of the confirmation",
+            "Under IT Rules 2021, platforms must acknowledge complaints within 24 hours and resolve within 15 days",
+            "For intimate/sexual images, platforms must remove within 24 hours of reporting"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "5-10 minutes per platform"
+        },
+        {
+          "id": "ch_4",
+          "order": 4,
+          "title": "File a Complaint on Cybercrime Portal",
+          "description": "India's National Cybercrime Reporting Portal allows online complaint filing.",
+          "details": [
+            "Visit cybercrime.gov.in — the official Government of India portal",
+            "Select 'Report Other Cyber Crime' or 'Report Women/Child Related Crime' as appropriate",
+            "You'll need: your details, suspect details (if known), incident description, and evidence",
+            "After filing, you'll receive an acknowledgment number — save this",
+            "You can track complaint status on the same portal using your acknowledgment number"
+          ],
+          "authority": "National Cybercrime Reporting Portal",
+          "links": [
+            {
+              "label": "Cybercrime.gov.in Portal",
+              "url": "https://cybercrime.gov.in",
+              "type": "official_portal"
+            }
+          ],
+          "documentsNeeded": [
+            "Government-issued ID (Aadhaar, PAN, etc.)",
+            "Screenshots/evidence of the cybercrime",
+            "Details of the perpetrator (if known)",
+            "Communication records"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "20-30 minutes"
+        },
+        {
+          "id": "ch_5",
+          "order": 5,
+          "title": "File a Police Complaint (FIR/NCR)",
+          "description": "You have the right to file a First Information Report at any police station.",
+          "details": [
+            "Visit your nearest police station or the Cyber Crime Cell in your city",
+            "You have the right to file a Zero FIR at any police station — they cannot refuse",
+            "If the police refuse to file an FIR, you can approach the Superintendent of Police or a Magistrate",
+            "Request a copy of the FIR — this is your legal right",
+            "You can request a female officer to record your statement",
+            "If you're uncomfortable going in person, some states allow e-FIR filing"
+          ],
+          "authority": "Local Police / Cyber Crime Cell",
+          "documentsNeeded": [
+            "Government-issued ID",
+            "All collected evidence (screenshots, recordings, etc.)",
+            "Written account of the incident with dates and times",
+            "FIR acknowledgment from cybercrime.gov.in (if already filed)"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-3 hours"
+        },
+        {
+          "id": "ch_6",
+          "order": 6,
+          "title": "Contact Additional Support",
+          "description": "Reach out to support organizations and helplines for guidance and assistance.",
+          "details": [
+            "Call 1930 — National Cyber Crime Helpline (24/7)",
+            "Call 181 — Women's Helpline for women-specific cyber harassment",
+            "Contact the National Commission for Women (NCW) — online complaint at ncw.nic.in",
+            "Reach out to Cyber Peace Foundation for guidance on cyber safety",
+            "Consider consulting a lawyer specializing in cyber law for legal advice"
+          ],
+          "authority": "Various support organizations",
+          "links": [
+            {
+              "label": "NCW Online Complaint",
+              "url": "http://ncw.nic.in/",
+              "type": "official_portal"
+            },
+            {
+              "label": "Cyber Peace Foundation",
+              "url": "https://www.cyberpeace.org/",
+              "type": "ngo"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        }
+      ]
+    },
+    "stalking": {
+      "title": "Stalking — What To Do",
+      "urgentNote": "If you feel you are in immediate danger from a stalker, call 112 (Police) immediately.",
+      "steps": [
+        {
+          "id": "st_1",
+          "order": 1,
+          "title": "Document the Stalking Pattern",
+          "description": "Keep a detailed log of every stalking incident with dates, times, and locations.",
+          "details": [
+            "Write down every encounter — date, time, location, what happened, any witnesses",
+            "Screenshot all unwanted messages, friend requests, and profile views",
+            "Save voicemails and record call logs (date, time, duration)",
+            "If being followed physically, note times, locations, and the stalker's appearance/vehicle",
+            "Document any fake profiles created using your name or photos"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Ongoing"
+        },
+        {
+          "id": "st_2",
+          "order": 2,
+          "title": "Secure Your Digital Presence",
+          "description": "Protect your online accounts and personal information.",
+          "details": [
+            "Change passwords on all social media and email accounts",
+            "Enable two-factor authentication everywhere possible",
+            "Review and restrict privacy settings on all social platforms",
+            "Check for and remove any location-sharing or tracking apps on your phone",
+            "Google your own name and phone number to see what's publicly visible",
+            "Consider using a VPN for internet browsing"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "30-60 minutes"
+        },
+        {
+          "id": "st_3",
+          "order": 3,
+          "title": "File a Police Complaint",
+          "description": "Stalking is a criminal offence. You have the right to file an FIR.",
+          "details": [
+            "Visit your nearest police station with all documented evidence",
+            "You have the right to file a Zero FIR at any police station",
+            "Provide the stalking log, screenshots, and any witness information",
+            "Request a copy of the FIR immediately",
+            "You can request a female officer to record your statement",
+            "For cyberstalking, you can also file on cybercrime.gov.in"
+          ],
+          "authority": "Local Police Station",
+          "links": [
+            {
+              "label": "Cybercrime.gov.in Portal",
+              "url": "https://cybercrime.gov.in",
+              "type": "official_portal"
+            }
+          ],
+          "documentsNeeded": [
+            "Government-issued ID",
+            "Stalking incident log with dates and details",
+            "Screenshots of online stalking",
+            "Witness details (if any)",
+            "Details of the stalker (if known)"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-3 hours"
+        },
+        {
+          "id": "st_4",
+          "order": 4,
+          "title": "Seek a Protection Order",
+          "description": "You may be eligible for a protection order to legally prevent the stalker from approaching you.",
+          "details": [
+            "Consult a lawyer about applying for a protection order from a Magistrate",
+            "A protection order can prohibit the stalker from contacting or approaching you",
+            "Free legal aid is available through District Legal Services Authority (DLSA)",
+            "Contact your nearest Legal Aid Centre — find it at nalsa.gov.in",
+            "Violation of a protection order is a separate criminal offence"
+          ],
+          "authority": "Magistrate Court / DLSA",
+          "links": [
+            {
+              "label": "NALSA (Legal Aid)",
+              "url": "https://nalsa.gov.in/",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies — requires legal consultation"
+        },
+        {
+          "id": "st_5",
+          "order": 5,
+          "title": "Contact Support Organizations",
+          "description": "Get help from organizations that specialize in supporting stalking victims.",
+          "details": [
+            "Call 181 — Women's Helpline (available 24/7)",
+            "Call 112 — Emergency services if you feel unsafe",
+            "Contact Shakti Shalini helpline for support and guidance",
+            "National Commission for Women: file a complaint at ncw.nic.in",
+            "Inform trusted friends, family, or colleagues about the situation for safety"
+          ],
+          "authority": "Various support organizations",
+          "links": [
+            {
+              "label": "NCW Online Complaint",
+              "url": "http://ncw.nic.in/",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        }
+      ]
+    },
+    "online_fraud": {
+      "title": "Online Fraud — What To Do",
+      "urgentNote": "If money was stolen, call 1930 (Cyber Crime Helpline) immediately — early reporting increases recovery chances.",
+      "steps": [
+        {
+          "id": "of_1",
+          "order": 1,
+          "title": "Act Immediately — First 24 Hours Are Critical",
+          "description": "For financial fraud, speed is essential. Contact your bank and the helpline right away.",
+          "details": [
+            "Call 1930 — National Cyber Crime Helpline — immediately to report financial fraud",
+            "Call your bank's fraud helpline and request an immediate block on the compromised account/card",
+            "If UPI fraud: open your UPI app → go to transaction history → raise a dispute on the fraudulent transaction",
+            "Change passwords for all financial apps and email accounts",
+            "Do NOT delete any messages, emails, or transaction notifications — these are evidence"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "30-60 minutes"
+        },
+        {
+          "id": "of_2",
+          "order": 2,
+          "title": "Collect and Preserve Evidence",
+          "description": "Gather all records of the fraudulent transaction and communication.",
+          "details": [
+            "Screenshot all transaction confirmations, SMS alerts, and email notifications",
+            "Save any communication with the fraudster (messages, emails, call logs)",
+            "Note the fraudster's details: phone number, email, UPI ID, bank account, website URL",
+            "Save the link or app listing if it was a fake website or app",
+            "Get a bank statement showing the fraudulent transaction",
+            "Upload everything to SafeStep's Evidence Vault for timestamped, hashed preservation"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "15-30 minutes"
+        },
+        {
+          "id": "of_3",
+          "order": 3,
+          "title": "File on Cybercrime Portal",
+          "description": "Report the fraud on the official National Cybercrime Reporting Portal.",
+          "details": [
+            "Visit cybercrime.gov.in and select 'Report Cyber Crime'",
+            "For financial fraud, select 'Online Financial Fraud'",
+            "Provide: your bank details (affected account), transaction details, fraudster's information",
+            "Upload evidence (screenshots, bank statements)",
+            "Save your complaint acknowledgment number for tracking",
+            "You can check status anytime on the same portal"
+          ],
+          "authority": "National Cybercrime Reporting Portal",
+          "links": [
+            {
+              "label": "Cybercrime.gov.in Portal",
+              "url": "https://cybercrime.gov.in",
+              "type": "official_portal"
+            }
+          ],
+          "documentsNeeded": [
+            "Government-issued ID",
+            "Bank statement with fraudulent transaction",
+            "Screenshots of fraudulent communication",
+            "Fraudster's details (phone, email, UPI ID, etc.)"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "20-30 minutes"
+        },
+        {
+          "id": "of_4",
+          "order": 4,
+          "title": "File a Police FIR",
+          "description": "File a First Information Report at your local police station or Cyber Crime Cell.",
+          "details": [
+            "Visit your nearest police station or Cyber Crime Cell with all evidence",
+            "You have the right to file a Zero FIR at any police station",
+            "Bring printouts of screenshots, bank statements, and communication records",
+            "Mention the cybercrime.gov.in complaint number if you've already filed there",
+            "Get a copy of the FIR and note the FIR number"
+          ],
+          "authority": "Local Police / Cyber Crime Cell",
+          "documentsNeeded": [
+            "Government-issued ID",
+            "All collected evidence",
+            "Bank statement",
+            "Cybercrime.gov.in acknowledgment (if filed)"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-3 hours"
+        },
+        {
+          "id": "of_5",
+          "order": 5,
+          "title": "Contact Your Bank's Nodal Officer",
+          "description": "If your bank's initial response is unsatisfactory, escalate to their nodal officer.",
+          "details": [
+            "Every bank has a designated Nodal Officer for fraud complaints — find their details on your bank's website",
+            "RBI guidelines state that if fraud is reported within 3 days, the customer's liability is limited",
+            "Write a formal complaint email to the nodal officer with all evidence attached",
+            "If the bank doesn't resolve within 30 days, escalate to the Banking Ombudsman at rbi.org.in",
+            "Keep all correspondence with the bank for your records"
+          ],
+          "authority": "Bank Nodal Officer / RBI Banking Ombudsman",
+          "links": [
+            {
+              "label": "RBI Banking Ombudsman",
+              "url": "https://rbi.org.in/Scripts/Complaints.aspx",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        }
+      ]
+    },
+    "domestic_abuse": {
+      "title": "Domestic Abuse — What To Do",
+      "urgentNote": "If you are in immediate danger, call 112 (Police) or 181 (Women's Helpline) right now. Your safety comes first.",
+      "steps": [
+        {
+          "id": "da_1",
+          "order": 1,
+          "title": "Ensure Your Immediate Safety",
+          "description": "If you're in danger right now, prioritize getting to a safe location.",
+          "details": [
+            "Call 112 (Police) if you're in immediate physical danger",
+            "Call 181 (Women's Helpline) for immediate counselling and assistance — available 24/7",
+            "If possible, go to a trusted friend, family member, or neighbour",
+            "One Stop Centres (OSCs) provide shelter, medical aid, legal aid, and counselling — call 181 to find your nearest one",
+            "Keep a bag packed with essentials (ID documents, phone charger, cash, change of clothes) if you're planning to leave"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Immediate"
+        },
+        {
+          "id": "da_2",
+          "order": 2,
+          "title": "Document the Abuse",
+          "description": "When it's safe to do so, start documenting incidents of abuse.",
+          "details": [
+            "Keep a private written log: date, time, what happened, any injuries, any witnesses",
+            "Photograph any physical injuries with a visible timestamp (turn on date stamp in camera settings)",
+            "Save threatening messages, abusive texts, and voicemails",
+            "If safe, get a medical examination and ask for a medical report documenting injuries",
+            "Keep documents safe — store them somewhere the abuser cannot access (use SafeStep's encrypted vault)",
+            "If there are witnesses, note their names and contact details"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Ongoing — document when safe"
+        },
+        {
+          "id": "da_3",
+          "order": 3,
+          "title": "Seek a Protection Order",
+          "description": "Under the Protection of Women from Domestic Violence Act (PWDVA) 2005, you can get a protection order.",
+          "details": [
+            "You can apply for a Protection Order through a Protection Officer, Service Provider, or directly to a Magistrate",
+            "A Protection Order can prevent the abuser from committing further violence, entering your home, or contacting you",
+            "You do NOT need to leave your home to get a protection order — the law protects your right to live in the shared household",
+            "Free legal aid is available through the District Legal Services Authority (DLSA)",
+            "Contact your nearest One Stop Centre (call 181) — they can help you file for a protection order"
+          ],
+          "authority": "Magistrate Court / Protection Officer",
+          "links": [
+            {
+              "label": "NALSA (Legal Aid)",
+              "url": "https://nalsa.gov.in/",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies — requires legal consultation"
+        },
+        {
+          "id": "da_4",
+          "order": 4,
+          "title": "File a Police Complaint",
+          "description": "Domestic violence is a criminal offence. You have the right to file an FIR.",
+          "details": [
+            "Visit your nearest police station — you can file a Zero FIR at any station",
+            "You have the right to request a female officer to record your statement",
+            "Bring your documentation: injury photos, medical reports, threatening messages",
+            "The police are legally required to register your FIR — if they refuse, you can approach the SP or a Magistrate",
+            "You can also file a complaint directly with the National Commission for Women (NCW) online"
+          ],
+          "authority": "Local Police Station",
+          "links": [
+            {
+              "label": "NCW Online Complaint",
+              "url": "http://ncw.nic.in/",
+              "type": "official_portal"
+            }
+          ],
+          "documentsNeeded": [
+            "Government-issued ID",
+            "Medical reports (if applicable)",
+            "Photos of injuries",
+            "Threatening messages / communication records",
+            "Witness details (if any)"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-3 hours"
+        },
+        {
+          "id": "da_5",
+          "order": 5,
+          "title": "Access Support Services",
+          "description": "Multiple organizations provide free support for domestic abuse survivors.",
+          "details": [
+            "181 — Women's Helpline (24/7) — counselling, shelter, legal aid",
+            "One Stop Centres (OSCs) — shelter + medical + legal + counselling under one roof",
+            "District Legal Services Authority (DLSA) — free legal representation",
+            "Shakti Shalini — specialised domestic violence support",
+            "Vandrevala Foundation — 1860-2662-345 — 24/7 mental health support",
+            "iCall TISS — 9152987821 — free counselling"
+          ],
+          "authority": "Various support organizations",
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        }
+      ]
+    },
+    "workplace_harassment": {
+      "title": "Workplace Harassment — What To Do",
+      "urgentNote": "If you are experiencing sexual harassment at work, you have legal protections under the POSH Act, 2013.",
+      "steps": [
+        {
+          "id": "wh_1",
+          "order": 1,
+          "title": "Document Every Incident",
+          "description": "Keep detailed records of every harassment incident with dates, times, and witnesses.",
+          "details": [
+            "Write a detailed account of each incident: date, time, location, what was said/done, who was present",
+            "Save all relevant emails, messages, and written communications",
+            "Note down names and contact details of any witnesses",
+            "If harassment is verbal, note exact words used as closely as possible",
+            "Keep records on a personal device — not on your work computer or email",
+            "Upload documents to SafeStep's Evidence Vault for timestamped preservation"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Ongoing"
+        },
+        {
+          "id": "wh_2",
+          "order": 2,
+          "title": "File a Complaint with the Internal Complaints Committee (ICC)",
+          "description": "Every organization with 10+ employees must have an Internal Complaints Committee under the POSH Act.",
+          "details": [
+            "Write a formal complaint addressed to the ICC Presiding Officer",
+            "Include: detailed description of incident(s), dates, names, and evidence",
+            "You must file within 3 months of the last incident (extendable by 3 months in special circumstances)",
+            "The ICC must complete inquiry within 90 days",
+            "During the inquiry, you can request: transfer (yours or respondent's), leave, or work-from-home",
+            "If your organization doesn't have an ICC, you can file with the Local Complaints Committee (LCC)"
+          ],
+          "authority": "Internal Complaints Committee (ICC)",
+          "documentsNeeded": [
+            "Written complaint with incident details",
+            "Supporting evidence (emails, messages, etc.)",
+            "Witness names and details",
+            "Any previous informal complaints made"
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-2 hours to prepare complaint"
+        },
+        {
+          "id": "wh_3",
+          "order": 3,
+          "title": "If No ICC — Contact the Local Complaints Committee",
+          "description": "If your workplace doesn't have an ICC, or you work in the informal sector, contact the District-level LCC.",
+          "details": [
+            "The Local Complaints Committee (LCC) is set up at the district level",
+            "It handles complaints from workplaces with fewer than 10 employees and the informal sector",
+            "Contact your District Women and Child Development Officer to reach the LCC",
+            "The filing process and timeline is the same as with an ICC",
+            "You can also file a complaint directly with the National Commission for Women"
+          ],
+          "authority": "Local Complaints Committee (LCC) / District Officer",
+          "links": [
+            {
+              "label": "NCW Online Complaint",
+              "url": "http://ncw.nic.in/",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        },
+        {
+          "id": "wh_4",
+          "order": 4,
+          "title": "File a Police Complaint (If Applicable)",
+          "description": "For severe cases, you also have the right to file a police complaint.",
+          "details": [
+            "Sexual harassment is also a criminal offence under the Indian Penal Code",
+            "You can file an FIR at any police station — this is separate from the ICC complaint",
+            "Filing a police complaint does not prevent you from also filing with the ICC (and vice versa)",
+            "You have the right to request a female officer to record your statement",
+            "For cyber-related workplace harassment, you can also file on cybercrime.gov.in"
+          ],
+          "authority": "Local Police Station",
+          "links": [
+            {
+              "label": "Cybercrime.gov.in Portal",
+              "url": "https://cybercrime.gov.in",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "1-3 hours"
+        },
+        {
+          "id": "wh_5",
+          "order": 5,
+          "title": "Seek Legal and Emotional Support",
+          "description": "Get professional guidance and support to navigate the process.",
+          "details": [
+            "District Legal Services Authority (DLSA) provides free legal aid",
+            "Call 181 (Women's Helpline) for immediate counselling and guidance",
+            "iCall TISS — 9152987821 — free professional counselling",
+            "Vandrevala Foundation — 1860-2662-345 — 24/7 mental health support",
+            "Consider consulting a lawyer specializing in POSH/employment law",
+            "You are legally protected against retaliation for filing a complaint"
+          ],
+          "authority": "Various support organizations",
+          "links": [
+            {
+              "label": "NALSA (Legal Aid)",
+              "url": "https://nalsa.gov.in/",
+              "type": "official_portal"
+            }
+          ],
+          "disclaimer": "General information, not legal advice",
+          "estimatedTime": "Varies"
+        }
+      ]
+    }
+  }
+}

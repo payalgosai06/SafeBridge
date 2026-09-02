@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "description": "SafeStep situation categories. Edit this file to add/modify categories without touching code.",
+    "lastReviewed": "2026-09-02",
+    "reviewedBy": "Initial setup — requires legal review before launch",
+    "disclaimer": "All content is general information only and is not a substitute for legal advice."
+  },
+  "categories": [
+    {
+      "id": "cyber_harassment",
+      "label": "Cyber Harassment",
+      "description": "Blackmail, morphed images, sextortion, online threats, trolling, or abusive messages",
+      "icon": "Monitor",
+      "color": "#4A9EFF",
+      "keywords": ["blackmail", "sextortion", "morphed", "threats", "trolling", "cyberbullying", "online abuse"]
+    },
+    {
+      "id": "stalking",
+      "label": "Stalking",
+      "description": "Physical or online stalking, fake profiles, unwanted surveillance, location tracking",
+      "icon": "Eye",
+      "color": "#A78BFA",
+      "keywords": ["stalking", "fake profile", "surveillance", "following", "tracking", "impersonation"]
+    },
+    {
+      "id": "online_fraud",
+      "label": "Online Fraud",
+      "description": "Financial fraud, phishing, identity theft, UPI/banking fraud, job scams",
+      "icon": "ShieldAlert",
+      "color": "#F59E0B",
+      "keywords": ["fraud", "phishing", "scam", "identity theft", "banking", "UPI", "OTP"]
+    },
+    {
+      "id": "domestic_abuse",
+      "label": "Domestic Abuse",
+      "description": "Physical, emotional, or financial abuse by spouse, partner, or family member",
+      "icon": "Home",
+      "color": "#EC4899",
+      "keywords": ["domestic violence", "marital abuse", "dowry", "physical abuse", "emotional abuse"]
+    },
+    {
+      "id": "workplace_harassment",
+      "label": "Workplace Harassment",
+      "description": "Sexual harassment at work, hostile work environment, quid pro quo, retaliation",
+      "icon": "Building2",
+      "color": "#10B981",
+      "keywords": ["workplace", "sexual harassment", "POSH", "hostile", "quid pro quo", "ICC"]
+    }
+  ]
+}
