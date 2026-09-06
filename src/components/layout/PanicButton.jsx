@@ -30,9 +30,10 @@ export default function PanicButton() {
       className="panic-button"
       onClick={handlePanic}
       aria-label="Quick exit — leave this page immediately"
-      title="Quick Exit"
+      title="Quick Exit & Safe Wipe"
     >
-      <LogOut size={22} />
+      <LogOut size={16} />
+      <span>Quick Exit</span>
     </button>
   );
 }

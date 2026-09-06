@@ -85,29 +85,30 @@ export default function AppShell() {
         top: '33px', // Below disclaimer
         zIndex: 100
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+        <NavLink to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <div style={{
-            width: '32px',
-            height: '32px',
-            borderRadius: '8px',
-            background: 'linear-gradient(135deg, #4A9EFF 0%, #2563EB 100%)',
+            width: '36px',
+            height: '36px',
+            borderRadius: '10px',
+            background: 'linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #EC4899 100%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             color: '#fff',
-            boxShadow: '0 2px 8px rgba(74, 158, 255, 0.3)'
+            boxShadow: '0 0 16px rgba(99, 102, 241, 0.45)',
+            border: '1px solid rgba(255, 255, 255, 0.2)'
           }}>
-            <ShieldCheck size={20} />
+            <ShieldCheck size={22} />
           </div>
           <div>
-            <h1 style={{ fontSize: '1.05rem', fontWeight: 700, letterSpacing: '-0.02em', margin: 0, lineHeight: 1.2 }}>
-              Safe<span style={{ color: 'var(--accent)' }}>Step</span>
+            <h1 style={{ fontSize: '1.15rem', fontWeight: 800, letterSpacing: '-0.025em', margin: 0, lineHeight: 1.2, color: '#fff' }}>
+              Safe<span style={{ color: 'var(--accent-light)' }}>Step</span>
             </h1>
-            <span style={{ fontSize: '0.68rem', color: 'var(--text-tertiary)', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
+            <span style={{ fontSize: '0.68rem', color: 'var(--text-tertiary)', letterSpacing: '0.06em', textTransform: 'uppercase', fontWeight: 600 }}>
               Legal Vault & Guidance
             </span>
           </div>
-        </div>
+        </NavLink>
 
         {/* Active case badge or quick selector */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>

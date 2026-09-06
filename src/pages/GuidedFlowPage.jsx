@@ -72,29 +72,59 @@ export default function GuidedFlowPage() {
   return (
     <div className="animate-fade-in">
       {/* Category Navigation Pills */}
-      <div style={{ display: 'flex', gap: 'var(--space-xs)', overflowX: 'auto', paddingBottom: 'var(--space-md)', marginBottom: 'var(--space-lg)' }}>
-        {categoriesData.categories.map((cat) => (
-          <button
-            key={cat.id}
-            className={`btn btn-sm ${selectedCategory === cat.id ? 'btn-primary' : 'btn-secondary'}`}
-            style={{ borderRadius: 'var(--radius-full)', whiteSpace: 'nowrap' }}
-            onClick={() => handleCategoryChange(cat.id)}
-          >
-            {cat.label}
-          </button>
-        ))}
+      <div style={{ display: 'flex', gap: '0.5rem', overflowX: 'auto', paddingBottom: 'var(--space-md)', marginBottom: 'var(--space-lg)', scrollbarWidth: 'none' }}>
+        {categoriesData.categories.map((cat) => {
+          const isSelected = selectedCategory === cat.id;
+          return (
+            <button
+              key={cat.id}
+              className={`btn btn-sm ${isSelected ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ 
+                borderRadius: 'var(--radius-full)', 
+                whiteSpace: 'nowrap',
+                fontWeight: isSelected ? 700 : 500,
+                ...(isSelected ? {
+                  boxShadow: `0 0 16px ${cat.color}40`,
+                  borderColor: 'rgba(255, 255, 255, 0.25)'
+                } : {})
+              }}
+              onClick={() => handleCategoryChange(cat.id)}
+            >
+              <span style={{ 
+                width: '7px', 
+                height: '7px', 
+                borderRadius: '50%', 
+                background: cat.color,
+                boxShadow: isSelected ? `0 0 6px ${cat.color}` : 'none'
+              }} />
+              <span>{cat.label}</span>
+            </button>
+          );
+        })}
       </div>
 
       {/* Header */}
       <div className="page-header" style={{ marginBottom: 'var(--space-lg)' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-sm)' }}>
           <div>
-            <h2 className="page-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <FileCheck2 size={24} style={{ color: currentCategoryMeta?.color || 'var(--accent)' }} />
-              {currentChecklist.title}
+            <h2 className="page-title" style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+              <div style={{
+                width: '38px',
+                height: '38px',
+                borderRadius: '10px',
+                background: `${currentCategoryMeta?.color || 'var(--accent)'}20`,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                border: `1px solid ${currentCategoryMeta?.color || 'var(--accent)'}50`,
+                boxShadow: `0 0 14px ${currentCategoryMeta?.color || 'var(--accent)'}35`
+              }}>
+                <FileCheck2 size={22} style={{ color: currentCategoryMeta?.color || 'var(--accent)' }} />
+              </div>
+              <span>{currentChecklist.title}</span>
             </h2>
             <p className="page-subtitle">
-              Structured guidance and verification steps before approaching legal or police authorities.
+              Structured statutory checklist and evidence prerequisites before filing formal complaints.
             </p>
           </div>
 
@@ -111,18 +141,19 @@ export default function GuidedFlowPage() {
       {/* Urgent Note Banner */}
       {currentChecklist.urgentNote && (
         <div style={{
-          background: 'var(--danger-subtle)',
-          border: '1px solid rgba(229, 57, 53, 0.3)',
+          background: 'rgba(244, 63, 94, 0.12)',
+          border: '1px solid rgba(244, 63, 94, 0.35)',
           borderRadius: 'var(--radius-md)',
           padding: 'var(--space-md)',
           marginBottom: 'var(--space-xl)',
           display: 'flex',
           alignItems: 'center',
-          gap: 'var(--space-md)'
+          gap: 'var(--space-md)',
+          boxShadow: '0 4px 16px rgba(244, 63, 94, 0.15)'
         }}>
           <AlertTriangle size={22} style={{ color: 'var(--danger)', flexShrink: 0 }} />
-          <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)' }}>
-            <strong>Safety Warning: </strong>
+          <div style={{ fontSize: '0.86rem', color: '#fff', lineHeight: 1.5 }}>
+            <strong style={{ color: '#FB7185' }}>Safety Warning: </strong>
             {currentChecklist.urgentNote}
           </div>
         </div>
@@ -130,18 +161,24 @@ export default function GuidedFlowPage() {
 
       {/* Progress tracker */}
       {activeCase && (
-        <div className="card" style={{ marginBottom: 'var(--space-xl)', padding: 'var(--space-md)' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem', fontSize: 'var(--text-xs)' }}>
-            <span style={{ color: 'var(--text-secondary)' }}>Checklist Completion: Case #{activeCase.id}</span>
-            <strong style={{ color: 'var(--accent)' }}>{completedCount} of {totalSteps} steps ({percentComplete}%)</strong>
+        <div className="card card-glass" style={{ marginBottom: 'var(--space-xl)', padding: 'var(--space-md) var(--space-lg)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', fontSize: '0.8rem' }}>
+            <span style={{ color: 'var(--text-secondary)', fontWeight: 600 }}>Checklist Completion: Case #{activeCase.id}</span>
+            <strong style={{ color: 'var(--accent-light)', fontFamily: 'var(--font-mono)' }}>
+              {completedCount} of {totalSteps} steps ({percentComplete}%)
+            </strong>
           </div>
-          <div style={{ width: '100%', height: '6px', background: 'var(--bg-elevated)', borderRadius: '9999px', overflow: 'hidden' }}>
+          <div style={{ width: '100%', height: '8px', background: 'rgba(255, 255, 255, 0.08)', borderRadius: '9999px', overflow: 'hidden', padding: '1px' }}>
             <div 
               style={{ 
                 width: `${percentComplete}%`, 
                 height: '100%', 
-                background: percentComplete === 100 ? 'var(--success)' : 'var(--accent)',
-                transition: 'width 0.3s ease'
+                background: percentComplete === 100 
+                  ? 'linear-gradient(90deg, #10B981, #34D399)' 
+                  : 'linear-gradient(90deg, #6366F1 0%, #38BDF8 100%)',
+                boxShadow: percentComplete > 0 ? '0 0 10px rgba(99, 102, 241, 0.6)' : 'none',
+                borderRadius: '9999px',
+                transition: 'width 0.4s cubic-bezier(0.16, 1, 0.3, 1)'
               }} 
             />
           </div>
