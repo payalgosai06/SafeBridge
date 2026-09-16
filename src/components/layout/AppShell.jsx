@@ -101,8 +101,9 @@ export default function AppShell() {
             <ShieldCheck size={22} />
           </div>
           <div>
-            <h1 style={{ fontSize: '1.15rem', fontWeight: 800, letterSpacing: '-0.025em', margin: 0, lineHeight: 1.2, color: '#fff' }}>
-              Safe<span style={{ color: 'var(--accent-light)' }}>Step</span>
+            <h1 style={{ fontSize: '1.15rem', fontWeight: 800, letterSpacing: '-0.025em', margin: 0, lineHeight: 1.2 }}>
+              <span style={{ color: '#000000' }}>Safe</span>
+              <span style={{ color: '#1E3A8A' }}>Step</span>
             </h1>
             <span style={{ fontSize: '0.68rem', color: 'var(--text-tertiary)', letterSpacing: '0.06em', textTransform: 'uppercase', fontWeight: 600 }}>
               Legal Vault & Guidance
