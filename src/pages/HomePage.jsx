@@ -333,7 +333,7 @@ export default function HomePage() {
             }}>
               <FolderLock size={22} />
             </div>
-            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#fff' }}>
+            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#0F172A' }}>
               Cryptographic Integrity
             </h4>
             <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
@@ -356,7 +356,7 @@ export default function HomePage() {
             }}>
               <Lock size={22} />
             </div>
-            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#fff' }}>
+            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#0F172A' }}>
               Pseudonymous Architecture
             </h4>
             <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
@@ -379,7 +379,7 @@ export default function HomePage() {
             }}>
               <ClockAlert size={22} />
             </div>
-            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#fff' }}>
+            <h4 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: '#0F172A' }}>
               Manual Status Tracker
             </h4>
             <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
