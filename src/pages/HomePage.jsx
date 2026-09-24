@@ -318,7 +318,7 @@ export default function HomePage() {
         </h3>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 'var(--space-md)' }}>
-          <div className="card" style={{ borderTop: '2px solid var(--accent)' }}>
+          <div className="card" style={{ borderTop: '2px solid var(--accent)', background: '#F1F5F9' }}>
             <div style={{
               width: '42px',
               height: '42px',
@@ -341,7 +341,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="card" style={{ borderTop: '2px solid var(--color-stalking)' }}>
+          <div className="card" style={{ borderTop: '2px solid var(--color-stalking)', background: '#F1F5F9' }}>
             <div style={{
               width: '42px',
               height: '42px',
@@ -364,7 +364,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="card" style={{ borderTop: '2px solid var(--color-workplace)' }}>
+          <div className="card" style={{ borderTop: '2px solid var(--color-workplace)', background: '#F1F5F9' }}>
             <div style={{
               width: '42px',
               height: '42px',
