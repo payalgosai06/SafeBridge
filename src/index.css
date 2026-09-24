@@ -403,6 +403,11 @@ a:hover {
     0 0 20px -4px var(--category-glow, var(--accent-glow));
 }
 
+/* Prevent light bg-elevated from washing out category cards which use dark glass backgrounds */
+.category-card.card-interactive:hover {
+  background: linear-gradient(135deg, rgba(14, 19, 34, 0.92) 0%, rgba(21, 28, 48, 0.85) 100%);
+}
+
 .card-interactive:active {
   transform: translateY(-1px);
 }
