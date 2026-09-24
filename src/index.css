@@ -492,7 +492,7 @@ a:hover {
 
 .category-content p {
   font-size: 0.86rem;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.65);
   line-height: 1.45;
 }
 
